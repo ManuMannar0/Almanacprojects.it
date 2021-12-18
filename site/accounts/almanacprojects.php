@@ -9,8 +9,8 @@ password: >
 language: en
 role: admin
 history:
+  - exhibitions/exibnormale
+  - publications/testmultyblockpublications
   - publications/perdix-publication
   - exhibitions/tulani-hlalo-extreme-competitive
   - publications/almanaccare-online-publication
-  - contact
-  - exhibitions/helena-hladlilova-perdix
