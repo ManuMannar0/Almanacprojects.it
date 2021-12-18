@@ -6,8 +6,18 @@ fields:
     label: Title
     type:  text
     disabled: true
+  defaultlenguage:
+    label: Default lenguage (if one lenguage only, ignore it)
+    type: select
+    default: english
+    options:
+      english: English
+      italiano: Italiano
   text:
-    label: Text
+    label: English area
+    type:  textarea
+  textita:
+    label: Area italiana
     type:  textarea
   videoembed:
     label: Video

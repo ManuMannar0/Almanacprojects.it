@@ -11,7 +11,7 @@ TODO sezione “support":
 DONE sticker: 
     possibilità di inserire uno “sticker” alla homepage.
 
-TODO template di pagina: 
+DONE template di pagina: 
     miglioramento della modalità a blocchi per una migliore personalizzazione.
     DAFARE in plublications, multyblock e multilingua
 

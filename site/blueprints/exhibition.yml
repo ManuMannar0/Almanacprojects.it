@@ -40,7 +40,7 @@ fields:
     label: Hour/Notes
     type:  text
   defaultlenguage:
-    label: Default lenguage (if one lenguage only ignore it)
+    label: Default lenguage (if one lenguage only, ignore it)
     type: select
     default: english
     options:
