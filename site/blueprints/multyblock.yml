@@ -30,6 +30,9 @@ fields:
   artist:
     label: Artist Name (or empty)
     type: text
+  releasedate:
+    label: Release Year (for publications only)
+    type: text
   exhibition:
     label: Exhibition/Event/Programme Name
     type: text
