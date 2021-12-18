@@ -1,0 +1,8 @@
+title: Home
+pages: true
+  template: showcase
+fields:
+  title:
+    label: Title
+    type:  text
+    type:  text

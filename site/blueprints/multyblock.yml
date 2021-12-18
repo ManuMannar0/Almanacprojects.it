@@ -1,0 +1,108 @@
+title: MultyBlock
+pages: false
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: text
+fields:
+  infozero:
+    label: MULTYBLOCK TEMPLATE
+    type:  info
+  currentupcoming:
+    label: Current / Upcoming
+    type: select
+    options:
+      current: Current
+      upcoming: Upcoming
+  title:
+    label: Title
+    type:  text
+    disabled: true
+  location:
+    label: Location
+    type: select
+    options:
+      London: London
+      Turin: Turin
+      Online: Online
+  artist:
+    label: Artist Name (or empty)
+    type: text
+  exhibition:
+    label: Exhibition/Event/Programme Name
+    type: text
+  startdate:
+    label: Start Date
+    type: date
+  enddate:
+    label: End Date
+    type: date
+  hourornotes:
+    label: Hour/Notes
+    type:  text
+   infouno:
+    label: 
+    type: info
+    text: |
+
+      
+  infodue:
+    label: BLOCKS 
+    type: info
+    text: 
+    text: 
+  defaultlenguage:
+    label: Default lenguage (if one lenguage only ignore it)
+    type: select
+    default: english
+    options:
+      english: English
+      italiano: Italiano
+  buildingBlocks:
+    label: 
+    type: structure
+    fields:
+      infouno:
+        label: Text/images/iframe
+        type:  info
+      multyblock:
+        label: MultyBlock
+        type: select
+        help: "Start" and "End" to start and close an horizontal group of block. "Nope" for normal blocks. "ImagesFall" to add a special block that render all the images added on files section. 
+        default: CONTENT
+        options:
+          CONTENT: Nope
+          MULTYBLOCKopened: Start multyblock
+          MULTYBLOCKclosed: End multyblock
+          IMAGESfall: ImagesFall
+      englisharea:
+        label: English area
+        type: textarea
+        help: English text here
+      areaitaliana:
+        label: Area italiana
+        type: textarea
+        help: Italian text here 
+      imagearea:
+        label: Media
+        type: text
+        help: Photo/Video here 
+      imagecaption:
+        label: Caption
+        type: text
+        help: Caption of media above 
+      alignment:
+        label: Alignment
+        type: radio
+        columns: 3
+        default: left
+        options:
+          left: Left
+          center: Center
+          right: Right
+      
+
+
+

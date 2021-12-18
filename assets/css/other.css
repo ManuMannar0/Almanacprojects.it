@@ -1,0 +1,283 @@
+.hide {
+  display: none;
+}
+.disabled-link {
+  pointer-events: none;
+}
+/*  2Column template  */
+.infoPage{
+  display: flex;
+}
+/*  Current/Upcoming  */
+.cur,
+.upc {
+  visibility: hidden;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.logo a {
+  color: black;
+}
+.subSupport {
+  padding-left: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+/*  Splashpage  */
+.browser_as_mobile {
+  width: 100%;
+  margin-left: 0rem;
+}
+.cover_mobile {
+  position: absolute;
+}
+.menufixed {
+  position: fixed;
+}
+.small {
+  width: 50%;
+  float: left;
+}
+.BIG {
+  width: 100%;
+  float: left;
+}
+.sp_header {
+  line-height: 1;
+  padding-top: 1rem;
+}
+.sp_footer {
+  line-height: 1.2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sp_artista,
+.sp_titolo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+.sp_titolo {
+  padding-bottom: 0.3rem;
+}
+.category {
+  text-transform: uppercase;
+  float: right;
+}
+.bold {
+  font-variant: no-common-ligatures;
+  font-family: "lago-medium";
+  color: black;
+}
+.sp_luogo,
+.sp_data,
+.sp_ora {
+  font-size: 1.2rem;
+}
+.imglayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.imgreal {
+  cursor: pointer;
+}
+#cornice {
+  position: absolute;
+  width: 76vw;
+  display: block;
+  padding: 0.3rem 0rem 0rem 0rem;
+  margin-left: 25rem;
+}
+.linea_sep {
+  border: 1px solid;
+  width: 100%;
+  border-bottom: 0px;
+}
+.bordo_sx_on {
+  border-left: 1px solid;
+}
+.linea_sep,
+.bordo_sx_on {
+  border-color: black;
+}
+.padding_sx_on {
+  padding-left: 1rem;
+}
+.padding_dx_on {
+  padding-right: 1rem;
+}
+.occhio {
+  padding-left: 0.1rem;
+}
+.sottolineato {
+  text-decoration: underline;
+}
+.script_sfondomenu_corto {
+  height: 5rem;
+}
+
+/* Ita Eng Button
+-------------------------------------------------- */
+.buttondisabled {
+  color: black;
+  cursor: default;
+}
+.buttonenabled {
+  cursor: pointer;
+  font-weight: 600;
+}
+#itabutton,
+#engbutton {
+  background-color: transparent;
+  outline: none;
+}
+
+/* Block & Multyblock Template
+-------------------------------------------------- */
+p {
+  max-width: 100em;
+}
+.wrap-multyblock {
+  display: flex;
+  width: 100%;
+}
+.multyblock {
+  display: inline-flex;
+}
+.blocchi {
+  border: 1px solid;
+}
+.left {
+  text-align: left;
+  text-align: -moz-left;
+  text-align: -webkit-left;
+  float: left;
+}
+.center {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  justify-content: center;
+}
+.right {
+  text-align: right;
+  text-align: -moz-right;
+  text-align: -webkit-right;
+  float: right;
+}
+.sidebyside {
+  display: flex;
+}
+.bordo {
+  border: 1px solid;
+}
+.correttore_pagina {
+  clear: both;
+}
+.correttore_menu {
+  height: 100vh;
+}
+figure {
+  margin-bottom: 1em;
+}
+.caption-multyblock {
+  position: relative;
+  top: -0.5em;
+}
+.marginlogos {
+  margin-right: 2rem;
+}
+.sticker_svg {
+  max-width: 8em;
+  position: fixed;
+  bottom: 1rem;
+}
+.fixImageTwoColumnTemplateSize {
+  width: 100% !important;
+}
+/* Media Query
+-------------------------------------------------- */
+@media only screen and (max-width: 2560px) {
+  #cornice {
+    margin-left: 21rem;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #cornice {
+    margin-left: 14rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #cornice {
+    margin-left: 9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #cornice {
+    padding: 1rem;
+    padding-top: 4rem;
+    position: unset;
+    width: 96vw;
+    padding: unset;
+    margin-left: unset;
+    margin-top: 3rem;
+  }
+  .small {
+    width: 100%;
+  }
+  .conigliopost {
+    display: none;
+  }
+  .bordo_sx_on {
+    border-left: 0px solid;
+  }
+  .padding_sx_on {
+    padding-left: 0rem;
+  }
+  .padding_dx_on {
+    padding-right: 0rem;
+  }
+  .sticker_svg {
+    width: 8rem;
+    max-width: 8em;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .multyblock {
+    display: unset;
+  }
+  .lengButton {
+    margin: 1% 0 1% 0%;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .correttore_menu {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #cornice {
+    width: 29rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #cornice {
+    width: 26rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #cornice {
+    width: 22rem;
+  }
+}

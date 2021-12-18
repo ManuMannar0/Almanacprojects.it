@@ -1,0 +1,11 @@
+title: Exhibitions
+pages:
+  template:
+    - exhibition
+    - exhibition_block
+    - multyblock
+files: false
+fields:
+  title:
+    label: Title
+    type: text

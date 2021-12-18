@@ -1,0 +1,483 @@
+/*
+
+  .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-
+ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / /
+`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'  
+
+Almanac Projects
+
+Authors: Joseph Pleass, Emanuele Mancari
+URLs:    josephpleass.com, emanuelemancari.it
+Emails:  jpleass@googlemail.com, mancariemanuele@gmail.com
+
+  .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-.-.   .-
+ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / / \ \ / /
+`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'   `-`-'  
+
+*/
+/* Sass Variables
+-------------------------------------------------- */
+/* Reset
+-------------------------------------------------- */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Pix
+-------------------------------------------------- */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "lago";
+  src: url("../fonts/lagosans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/lagosans-regular-webfont.woff") format("woff"),
+    url("../fonts/lagosans-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lago";
+  src: url("../fonts/lagosans-oblique-webfont.woff2") format("woff2"),
+    url("../fonts/lagosans-oblique-webfont.woff") format("woff"),
+    url("../fonts/lagosans-oblique-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "lago-medium";
+  src: url("../fonts/lagosans-medium-webfont.woff2") format("woff2"),
+    url("../fonts/lagosans-medium-webfont.woff") format("woff"),
+    url("../fonts/lagosans-medium-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Links
+-------------------------------------------------- */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s, background 0.3s, border 0.3s;
+}
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Site
+-------------------------------------------------- */
+html {
+  min-height: 100%;
+  font-family: "lago", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 13.5px;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.45em;
+  padding: 1em;
+  background: #fff;
+  color: #333;
+}
+
+main {
+  max-width: 1440px;
+}
+
+/* Side Menu
+-------------------------------------------------- */
+.menu {
+  list-style-type: none;
+  margin-bottom: 2em;
+  color: #333 !important;
+}
+.menu a {
+  color: #333 !important;
+}
+.menu li.active a {
+  text-decoration: underline;
+  color: #333 !important;
+}
+
+.logo {
+  font-family: "lago-medium";
+}
+
+/* Headings
+-------------------------------------------------- */
+h1 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1em;
+  color: #333;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+i.exhibition-title a {
+  color: #333;
+}
+
+p {
+  margin-bottom: 1em;
+  max-width: 35em;
+}
+
+blockquote {
+  padding-left: 1em;
+}
+
+/* Showcase
+-------------------------------------------------- */
+#showCaseImage {
+  background: url(images/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#splashtext {
+  position: absolute;
+  width: 20em;
+  color: #333;
+  display: none;
+}
+#splashtext.top-left {
+  top: 1em;
+  left: 1em;
+}
+#splashtext.top-right {
+  top: 1em;
+  right: 1em;
+  text-align: right;
+}
+#splashtext.bottom-left {
+  bottom: 1em;
+  left: 1em;
+}
+#splashtext.bottom-right {
+  bottom: 1em;
+  right: 1em;
+  text-align: right;
+}
+
+#splashtext,
+#splashScreen {
+  opacity: 0;
+}
+
+#splashScreen {
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#splashScreen img {
+  transition: opacity 0.2s ease-in-out;
+  margin: auto;
+  max-height: 100%;
+  width: auto;
+}
+
+/* Exhibitions
+-------------------------------------------------- */
+.exhibitions {
+  padding-bottom: 1em !important;
+}
+@media only screen and (max-width: 678px) {
+  .exhibitions {
+    max-width: 16em !important;
+  }
+}
+
+/* Exhibition
+-------------------------------------------------- */
+.title {
+  max-width: 16em;
+  margin-bottom: 2em;
+}
+
+iframe {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.images,
+.images-news {
+  opacity: 0;
+}
+.images img,
+.images-news img {
+  margin: auto;
+  width: 100% !important;
+  padding-bottom: 1em;
+}
+.images .caption,
+.images-news .caption {
+  padding-bottom: 1em;
+  padding-top: 0em;
+  position: relative;
+  top: -0.5em;
+}
+.images .caption p,
+.images-news .caption p {
+  margin: 0;
+  max-width: 100%;
+}
+.images.desktop,
+.images-news.desktop {
+  position: relative;
+  left: 1em;
+}
+.images.mobile,
+.images-news.mobile {
+  position: inherit !important;
+  width: 100% !important;
+}
+
+/* News
+-------------------------------------------------- */
+.news {
+  margin-bottom: 2em !important;
+}
+
+#newsContainer {
+  margin: 0 !important;
+  padding-left: 1em;
+}
+@media screen and (max-width: 678px) {
+  #newsContainer {
+    padding-left: 0em;
+  }
+}
+
+/* Signup Form
+-------------------------------------------------- */
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+#mc_embed_signup input.email {
+  margin: 1em 0em !important;
+}
+
+#mc_embed_signup .button {
+  background-color: #fff !important;
+  border: solid 1px #333 !important;
+  border-radius: 0 !important;
+  color: #333 !important;
+  font-size: 0.8em !important;
+  font-weight: normal !important;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  display: none;
+  font-size: 0.8em;
+  color: #333;
+  z-index: -1;
+}
+@media only screen and (max-width: 678px) {
+  .footer {
+    position: relative;
+  }
+}
+.footer p {
+  margin-bottom: 0;
+}
+
+.copyright {
+  float: left;
+}
+
+.colophon {
+  float: right;
+}
+
+.colophon a b {
+  color: red;
+  padding-left: 0.25em;
+}
+
+/* Grid
+-------------------------------------------------- */
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 0% 0% 0% 1%;
+}
+.col.no-margin {
+  margin: 0% 0 0% 1%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */
+}
+
+/*  GRID OF TEN  */
+.span_10_of_10 {
+  width: 100%;
+}
+
+.span_9_of_10 {
+  width: 89.9%;
+}
+
+.span_8_of_10 {
+  width: 79.8%;
+}
+
+.span_7_of_10 {
+  width: 69.7%;
+}
+
+.span_6_of_10 {
+  width: 59.6%;
+}
+
+.span_5_of_10 {
+  width: 49.5%;
+}
+
+.span_4_of_10 {
+  width: 39.4%;
+}
+.span_4_of_10.fixed-width {
+  max-width: 32em;
+}
+
+.span_3_of_10 {
+  width: 29.3%;
+}
+
+.span_2_of_10 {
+  width: 19.2%;
+}
+.span_2_of_10.fixed-width {
+  max-width: 9em;
+}
+
+.span_1_of_10 {
+  width: 9.1%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 678px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+
+  .span_1_of_10,
+  .span_2_of_10,
+  .span_3_of_10,
+  .span_4_of_10,
+  .span_5_of_10,
+  .span_6_of_10,
+  .span_7_of_10,
+  .span_8_of_10,
+  .span_9_of_10,
+  .span_10_of_10 {
+    width: 100%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

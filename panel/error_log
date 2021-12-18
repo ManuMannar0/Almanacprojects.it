@@ -1,0 +1,334 @@
+[[14-Jul-2021 13:22:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[17-Jul-2021 10:40:04 UTC] PHP Fatal error:  Uncaught Error: The file has been only been partially uploaded in /home3/almanac/public_html/kirby/toolkit/lib/upload.php:198
+Stack trace:
+#0 /home3/almanac/public_html/kirby/toolkit/lib/upload.php(141): Upload->fail(4)
+#1 /home3/almanac/public_html/kirby/toolkit/lib/upload.php(44): Upload->move()
+#2 /home3/almanac/public_html/panel/app/src/panel/models/page/uploader.php(53): Upload->__construct('/home3/almanac/...', Array)
+#3 /home3/almanac/public_html/panel/app/src/panel/models/page/uploader.php(29): Kirby\Panel\Models\Page\Uploader->upload()
+#4 /home3/almanac/public_html/panel/app/src/panel/models/page.php(460): Kirby\Panel\Models\Page\Uploader->__construct(Object(Kirby\Panel\Models\Page))
+#5 /home3/almanac/public_html/panel/app/controllers/files.php(80): Kirby\Panel\Models\Page->upload()
+#6 /home3/almanac/public_html/kirby/toolkit/helpers.php(270): FilesController->upload('public-programm...')
+#7 /home3/almanac/public_html/panel/app/src/panel.php(437): call(Array, Array)
+#8 /home3/almanac/public_html/pane in /home3/almanac/public_html/kirby/toolkit/lib/upload.php on line 198
+[17-Jul-2021 10:40:31 UTC] PHP Fatal error:  Uncaught Error: The file has been only been partially uploaded in /home3/almanac/public_html/kirby/toolkit/lib/upload.php:198
+Stack trace:
+#0 /home3/almanac/public_html/kirby/toolkit/lib/upload.php(141): Upload->fail(4)
+#1 /home3/almanac/public_html/kirby/toolkit/lib/upload.php(44): Upload->move()
+#2 /home3/almanac/public_html/panel/app/src/panel/models/page/uploader.php(53): Upload->__construct('/home3/almanac/...', Array)
+#3 /home3/almanac/public_html/panel/app/src/panel/models/page/uploader.php(29): Kirby\Panel\Models\Page\Uploader->upload()
+#4 /home3/almanac/public_html/panel/app/src/panel/models/page.php(460): Kirby\Panel\Models\Page\Uploader->__construct(Object(Kirby\Panel\Models\Page))
+#5 /home3/almanac/public_html/panel/app/controllers/files.php(80): Kirby\Panel\Models\Page->upload()
+#6 /home3/almanac/public_html/kirby/toolkit/helpers.php(270): FilesController->upload('public-programm...')
+#7 /home3/almanac/public_html/panel/app/src/panel.php(437): call(Array, Array)
+#8 /home3/almanac/public_html/pane in /home3/almanac/public_html/kirby/toolkit/lib/upload.php on line 198
+[05-Aug-2021 09:39:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:39:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:40:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[05-Aug-2021 09:40:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[09-Aug-2021 07:43:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:04:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:04:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:04:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:05:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:05:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:05:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[03-Nov-2021 13:06:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362
+[10-Nov-2021 09:16:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function direction() on null in /home3/almanac/public_html/panel/app/src/panel.php:362
+Stack trace:
+#0 /home3/almanac/public_html/panel/app/src/panel.php(517): Kirby\Panel->direction()
+#1 /home3/almanac/public_html/panel/app/src/panel.php(227): Kirby\Panel->redirect('login')
+#2 /home3/almanac/public_html/panel/app/src/panel.php(161): Kirby\Panel->csrfCheck()
+#3 /home3/almanac/public_html/panel/index.php(48): Kirby\Panel->__construct(Object(Kirby), '/home3/almanac/...')
+#4 {main}
+  thrown in /home3/almanac/public_html/panel/app/src/panel.php on line 362

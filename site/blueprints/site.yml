@@ -1,0 +1,57 @@
+title: Site
+pages: default
+fields:
+  
+  infouno:
+    label: SITE OPTIONS
+    type:  info
+
+  vetrina:
+    label: Vetrina
+    type: checkbox
+    text: Check if u want "vetrina" ON?
+
+  blockssplashpage:
+    label: Splash-blocks
+    type: structure
+    fields:
+      titleforsplash:
+        label: Title
+        type: text
+        help: Insert the exhibition's/event's/publication's title you want in your splashpage (you can change the order later, by clicking and drag up or down the block). You can find titles in "Exhibition Name" fot exhibition's pages, "Programme Title" for events and "Publication Title" for publications. Just copy/paste the text into the field. If you don't want to copy/paste, write the title but please, pay attention to copy exactly what you see in the title's field and mind the case. 
+      sizeforsplash:
+        label: Dimension
+        type: radio
+        columns: 2
+        default: small
+        options:
+          small: small
+          BIG: BIG
+      category:
+        label: Category
+        type: select
+        required: true
+        default: Events
+        options:
+          Exhibitions: Exhibitions
+          Events: Events
+          Publications: Publications
+
+  title:
+    label: Title
+    type:  text
+  author:
+    label: Author
+    type:  text
+  description:
+    label: Description
+    type:  textarea
+  keywords:
+    label: Keywords
+    type:  tags
+  copyright:
+    label: Copyright
+    type:  textarea
+  stickercheck:
+    type: checkbox
+    text: Sticker visible

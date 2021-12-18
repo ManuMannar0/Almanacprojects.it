@@ -1,0 +1,25 @@
+title: Showcase
+pages: false
+files: true
+sortable: true
+fields:
+  title:
+    label: Title
+    type:  text
+  artist:
+    label: Artist Name
+    type: text
+  exhibition:
+    label: Exhibition Name
+    type: text
+  startdate:
+    label: Start Date
+    type: date
+  enddate:
+    label: End Date
+    type: date
+  splashscreen:
+    label: Splashscreen
+    type: checkbox
+    text: Do you want this to be a splash screen?
+  

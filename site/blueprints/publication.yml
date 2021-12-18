@@ -1,0 +1,37 @@
+title: Publication
+pages: false
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: text
+fields:
+  currentupcoming:
+    label: CURRENT / UPCOMING
+    type: select
+    options:
+      current: Current
+      upcoming: Upcoming
+  title:
+    label: Title
+    type:  text
+    disabled: true
+  author:
+    label: Author Name
+    type: text
+  booktitle:
+    label: Publication Title
+    type: text
+  releasedate:
+    label: Release Year
+    type: text
+  text:
+    label: Text
+    type: textarea
+    size: large
+  videoembed:
+    label: Video
+    type: textarea
+    size: large
+    help: Paste embed code into here to have video above images.

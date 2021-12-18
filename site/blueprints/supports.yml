@@ -1,0 +1,9 @@
+title: Supports
+pages:
+  template:
+    - multyblock
+files: false
+fields:
+  title:
+    label: Title
+    type: text

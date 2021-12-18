@@ -1,0 +1,49 @@
+
+title: Public Programme
+pages: false
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: text
+fields:
+  currentupcoming:
+    label: CURRENT / UPCOMING
+    type: select
+    options:
+      current: Current
+      upcoming: Upcoming
+  title:
+    label: Title
+    type:  text
+    disabled: true
+  artist:
+    label: Artist Name
+    type:  text
+  programmetitle:
+    label: Programme Title
+    type: text
+  location:
+    label: Location
+    type: Text
+    help: City or Country where the programme is taking place.
+  startdate:
+    label: Start Date
+    type: date
+  enddate:
+    label: End Date
+    type: date
+  hourornotes:
+    label: Hour/Notes
+    type:  text
+  text:
+    label: Text
+    type: textarea
+    size: large
+  videoembed:
+    label: Video
+    type: textarea
+    size: large
+    help: Paste embed code into here to have video above images.
+

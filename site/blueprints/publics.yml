@@ -1,0 +1,11 @@
+title: Public Programmes
+pages:
+  template:
+    - public
+    - public_block
+    - multyblock
+files: false
+fields:
+  title:
+    label: Title
+    type: text

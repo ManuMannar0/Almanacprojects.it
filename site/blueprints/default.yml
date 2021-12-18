@@ -1,0 +1,16 @@
+title: Page
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+    disabled: true
+  text:
+    label: Text
+    type:  textarea
+  videoembed:
+    label: Video
+    type: textarea
+    size: large
+    help: Paste embed code into here to have video above images.

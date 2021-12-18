@@ -1,0 +1,50 @@
+title: Exhibition
+pages: false
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: text
+fields:
+  currentupcoming:
+    label: CURRENT / UPCOMING
+    type: select
+    options:
+      current: Current
+      upcoming: Upcoming
+  title:
+    label: Title
+    type:  text
+    disabled: true
+  location:
+    label: Location
+    type: select
+    options:
+      london: London
+      turin: Turin
+      online: Online
+  artist:
+    label: Artist Name
+    type: text
+  exhibition:
+    label: Exhibition Name
+    type: text
+  startdate:
+    label: Start Date
+    type: date
+  enddate:
+    label: End Date
+    type: date
+  hourornotes:
+    label: Hour/Notes
+    type:  text
+  text:
+    label: Text
+    type: textarea
+    size: large
+  videoembed:
+    label: Video
+    type: textarea
+    size: large
+    help: Paste embed code into here to have video above images.
