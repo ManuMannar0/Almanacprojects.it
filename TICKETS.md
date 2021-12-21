@@ -15,8 +15,8 @@ DONE template di pagina:
     miglioramento della modalità a blocchi per una migliore personalizzazione.
     DAFARE in plublications, multyblock e multilingua
 
-TODO multi-lingua: 
+DONE multi-lingua: 
     inserimento della modalità testo in multi-lingua nella già esistente modalità a blocchi.
     DAFARE sicuramente about multilingua.
 
-NEW (to-not-do): integrare Paypal, Satispay, Conto corrente per fare una donazione diretta dal sito.
+NEW $$$$$$$$$$$ (to-not-do): integrare Paypal, Satispay, Conto corrente per fare una donazione diretta dal sito.

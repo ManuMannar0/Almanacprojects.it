@@ -9,8 +9,8 @@ password: >
 language: en
 role: admin
 history:
+  - supports/test1
   - contact
   - publications/due
   - publications/uno
   - publications/testmultyblockpublications
-  - exhibitions/exibnormale
