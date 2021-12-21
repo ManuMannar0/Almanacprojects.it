@@ -27,7 +27,7 @@
   <!-- info -->
   <!-- start lenguage button -->
   <div class="lengButton">
-    <button id="itabutton">ITA</button>-<button id="engbutton">ENG</button>
+    <button id="itabutton">ITA</button> - <button id="engbutton">ENG</button>
   </div>
   <!-- end lenguage button -->
 </div>
